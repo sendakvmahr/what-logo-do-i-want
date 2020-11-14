@@ -272,7 +272,6 @@ https://en.wikipedia.org/wiki/Huobi
 https://en.wikipedia.org/wiki/Kremnica_Mint
 https://en.wikipedia.org/wiki/Harbert_Management_Corporation
 https://en.wikipedia.org/wiki/Credit_Suisse
-https://en.wikipedia.org/wiki/L_Catterton
 https://en.wikipedia.org/wiki/Carlyle_Group
 https://en.wikipedia.org/wiki/Mitchell_Madison_Group
 https://en.wikipedia.org/wiki/Zurich_Financial_Services
@@ -341,7 +340,6 @@ https://en.wikipedia.org/wiki/Piraeus_Bank
 https://en.wikipedia.org/wiki/OpCapita
 https://en.wikipedia.org/wiki/Mitsubishi_UFJ_Financial_Group
 https://en.wikipedia.org/wiki/Lake_Capital
-https://en.wikipedia.org/wiki/Allianz_Global_Investors
 https://en.wikipedia.org/wiki/Highbridge_Capital_Management
 https://en.wikipedia.org/wiki/Arcapita
 https://en.wikipedia.org/wiki/Veronis_Suhler_Stevenson

@@ -1,1 +1,4 @@
 scripts were moved from parent directory to prevent deleting all data with sloppy clicks
+
+0 - first step of mass fetching lots of lists that could have logos
+1 - mergeing lists to get categories, fetching logos/images, updating lists of links to match their image directory
