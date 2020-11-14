@@ -5,7 +5,7 @@ of links from categories during merging
 
 import os
 
-file_1 = "./lists_of_links/media_and_communication.txt"
+file_1 = "./lists_of_links/gas.txt"
 main = """
         ./lists_of_links/misc_product.txt
 	./lists_of_links/dental_pharmaceutical.txt
@@ -26,7 +26,7 @@ main = """
 	./lists_of_links/esports.txt
 """.split("\n")
 subtract = """
-	./lists_of_links/electronics.txt
+	no_image.txt
 """.split("\n")
 
 #subtract = main

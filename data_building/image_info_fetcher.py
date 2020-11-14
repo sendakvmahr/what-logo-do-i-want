@@ -83,11 +83,11 @@ files = ['./lists_of_links/adult.txt',
          './lists_of_links/store.txt',
          './lists_of_links/utilities.txt'
 ]
-files = ['./lists_of_links/gaming.txt',
-         './lists_of_links/esports.txt',
+files = ['./lists_of_links/food_drink.txt'
     ]
 finished = [
     "./lists_of_links/gas.txt",
+    './lists_of_links/megabrands.txt',
     './lists_of_links/gaming.txt',
     './lists_of_links/esports.txt'
 ]
