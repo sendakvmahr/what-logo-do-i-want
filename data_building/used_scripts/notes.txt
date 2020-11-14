@@ -1,0 +1,1 @@
+scripts were moved from parent directory to prevent deleting all data with sloppy clicks
