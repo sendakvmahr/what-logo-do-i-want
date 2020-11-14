@@ -1,3 +1,6 @@
+"""
+Goes through all the links in list of links and records duplicates
+"""
 import os
 READ_DIR = "./lists_of_links/"
 OUTPUT_DIR = "duplicate_links.txt"

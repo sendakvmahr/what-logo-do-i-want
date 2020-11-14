@@ -1,3 +1,7 @@
+"""
+goes through all the files, removes links in an exclude list
+"""
+
 import os
 
 with open("exclude_from_fetches.txt") as f:

@@ -1,3 +1,7 @@
+"""
+script used to merge two list of links together
+"""
+
 import os
 # cax software
 # list_of_marketing_research_firms.txt finance

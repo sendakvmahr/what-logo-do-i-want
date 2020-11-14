@@ -1,7 +1,14 @@
+"""
+After manually going through images and removing non-logo images,
+run this to update the corresponding list of links to match. That way, if run on
+another computer, you can just use the recorded list of links. 
+"""
 import os
-check_list = "./lists_of_links/food_drink.txt"
-files = "./images/food_drink"
-output = check_list.split(r"/")[-1]
+name="misc"
+check_list = "./lists_of_links/{}.txt".format(name)
+files = "./images/{}".format(name)
+#output = check_list.split(r"/")[-1]
+output = check_list
 
 def remove_extension(f):
     return ".".join(f.split(".")[:-1])

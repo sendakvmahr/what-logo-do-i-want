@@ -18,7 +18,8 @@ def save_logo_image(category, link, img_link, image):
     extension = str(img_link).split(".")[-1]
     save_as_name = "{}.{}".format(link.split("/")[-1].lower(), extension)
     save_as_name = OUTPUT_PATH + category + "/" + save_as_name
-    image.save(save_as_name)
+    if "*" not in save_as_name:
+        image.save(save_as_name)
 
     
 def save_image(link, category):
@@ -83,18 +84,25 @@ files = ['./lists_of_links/adult.txt',
          './lists_of_links/store.txt',
          './lists_of_links/utilities.txt'
 ]
-files = ['./lists_of_links/food_drink.txt'
-    ]
+
 finished = [
+    './lists_of_links/adult.txt',
+    './lists_of_links/alcohol.txt',
+    './lists_of_links/convenience_store.txt',
+    './lists_of_links/electronics.txt',
+    './lists_of_links/esports.txt'
+    './lists_of_links/food_drink.txt',
+    './lists_of_links/gaming.txt',
     "./lists_of_links/gas.txt",
     './lists_of_links/megabrands.txt',
-    './lists_of_links/gaming.txt',
-    './lists_of_links/esports.txt'
 ]
+
 for f in finished:
     if f in files: files.remove(f)
 
+    
 for f in files:
+    print(f)
     try:
         cat = f.replace(".txt", "").split("/")[-1].lower()
         os.mkdir(OUTPUT_PATH + cat)

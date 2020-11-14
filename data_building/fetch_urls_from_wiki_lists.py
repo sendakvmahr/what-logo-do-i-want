@@ -1,3 +1,6 @@
+"""
+reads list_of_lists_urls.py ande gathers links that may have logos on them.
+"""
 import requests
 import os
 from bs4 import BeautifulSoup

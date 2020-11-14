@@ -7,7 +7,6 @@ https://en.wikipedia.org/wiki/Evil_Geniuses
 https://en.wikipedia.org/wiki/Boston_Uprising
 https://en.wikipedia.org/wiki/Dignitas_(esports)
 https://en.wikipedia.org/wiki/KT_Rolster
-https://en.wikipedia.org/wiki/Team_Liquid2
 https://en.wikipedia.org/wiki/LGD_Gaming
 https://en.wikipedia.org/wiki/Cloud9
 https://en.wikipedia.org/wiki/Gambit_Esports
@@ -20,16 +19,10 @@ https://en.wikipedia.org/wiki/MIBR
 https://en.wikipedia.org/wiki/Phoenix_1
 https://en.wikipedia.org/wiki/Carbon_(Halo_team)
 https://en.wikipedia.org/wiki/Astralis
-https://en.wikipedia.org/wiki/Team_Liquid4 Nemiga Gaming
-https://en.wikipedia.org/wiki/Red_Bull2
-https://en.wikipedia.org/wiki/Tempo_Storm
 https://en.wikipedia.org/wiki/PSG_Esports
 https://en.wikipedia.org/wiki/Dallas_Fuel
-https://en.wikipedia.org/wiki/Team_Envy
 https://en.wikipedia.org/wiki/Team_Liquid
-https://en.wikipedia.org/wiki/Ninjas_in_Pyjamas2
 https://en.wikipedia.org/wiki/TempoStorm
-https://en.wikipedia.org/wiki/Team_Liquid2
 https://en.wikipedia.org/wiki/Team_Vitality
 https://en.wikipedia.org/wiki/NRG_Esports
 https://en.wikipedia.org/wiki/Top_Esports
@@ -41,7 +34,6 @@ https://en.wikipedia.org/wiki/Golden_Guardians
 https://en.wikipedia.org/wiki/Clutch_Gaming
 https://en.wikipedia.org/wiki/Giants_Gaming
 https://en.wikipedia.org/wiki/San_Francisco_Shock
-https://en.wikipedia.org/wiki/Chicago_Huntsmen2
 https://en.wikipedia.org/wiki/Mousesports
 https://en.wikipedia.org/wiki/OG_(esports)
 https://en.wikipedia.org/wiki/Faze_Clan
@@ -52,7 +44,6 @@ https://en.wikipedia.org/wiki/Team_LDLC
 https://en.wikipedia.org/wiki/Team_EnVyUs
 https://en.wikipedia.org/wiki/Team_Secret
 https://en.wikipedia.org/wiki/G-Rex
-https://en.wikipedia.org/wiki/Cloud9
 https://en.wikipedia.org/wiki/Shanghai_Dragons
 https://en.wikipedia.org/wiki/Counter_Logic_Gaming
 https://en.wikipedia.org/wiki/Rogue_(esports)
@@ -62,9 +53,7 @@ https://en.wikipedia.org/wiki/Samsung_Galaxy_(esports)
 https://en.wikipedia.org/wiki/COGnitive_Gaming
 https://en.wikipedia.org/wiki/Team_SoloMid
 https://en.wikipedia.org/wiki/Team_Razer
-https://en.wikipedia.org/wiki/Cloud9_(esports)
 https://en.wikipedia.org/wiki/Misfits_Gaming
-https://en.wikipedia.org/wiki/Evil_Geniuses (loan)
 https://en.wikipedia.org/wiki/Panathinaikos_eSports
 https://en.wikipedia.org/wiki/Fnatic
 https://en.wikipedia.org/wiki/SK_Telecom_T1
@@ -72,9 +61,7 @@ https://en.wikipedia.org/wiki/Digital_Chaos
 https://en.wikipedia.org/wiki/Houston_Outlaws
 https://en.wikipedia.org/wiki/G2_Esports
 https://en.wikipedia.org/wiki/FlyQuest
-https://en.wikipedia.org/wiki/FaZe_Clan
 https://en.wikipedia.org/wiki/Virtus.pro
-https://en.wikipedia.org/wiki/Samsung_Khan
 https://en.wikipedia.org/wiki/Str8_Rippin
 https://en.wikipedia.org/wiki/Dallas_Empire
 https://en.wikipedia.org/wiki/Mad_Catz
