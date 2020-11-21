@@ -14,11 +14,30 @@ HEADER = [
     "name",
     "profile",
     "number of colors",
-    "variance",
-    "background color",
-    "primary color",
-    "secondary color",
-    "tertiary color"
+    "variance r",
+    "variance g",
+    "variance b",
+    "variance a",
+    "background color r",
+    "background color g",
+    "background color b",
+    "background color a",
+    "primary color r",
+    "primary color g",
+    "primary color b",
+    "primary color a",
+    "secondary color r",
+    "secondary color g",
+    "secondary color b",
+    "secondary color a",
+    "tertiary color r",
+    "tertiary color g",
+    "tertiary color b",
+    "tertiary color a",
+    "percent_bg",
+    "percent color1",
+    "percent color2",
+    "percent color3",
 ]
 HTML_FILE_TEMPLATE = """
 <html>
@@ -71,6 +90,7 @@ class ImageData():
         self._image_data = self.image.getdata()
         self._image_data = [(0, 0, 0, 0) if x[-1] == 0 else x for x in self._image_data]
         image_data_dict = self._get_dict_percentage(self._image_data)
+        self.image_data_dict = image_data_dict
         
         self.profile = self.get_profile(image)
         self.num_colors = len(image_data_dict)
@@ -208,11 +228,30 @@ class ImageData():
             self.unquoted_name,
             self.profile,
             self.num_colors,
-            tuple(self.variance),
-            self.background_color,
-            self.primary_colors[0],
-            self.primary_colors[1],
-            self.primary_colors[2]
+            self.variance[0],
+            self.variance[1],
+            self.variance[2],
+            self.variance[3],
+            self.background_color[0],
+            self.background_color[1],
+            self.background_color[2],
+            self.background_color[3],
+            self.primary_colors[0][0],
+            self.primary_colors[0][1],
+            self.primary_colors[0][2],
+            self.primary_colors[0][3],
+            self.primary_colors[1][0],
+            self.primary_colors[1][1],
+            self.primary_colors[1][2],
+            self.primary_colors[1][3],
+            self.primary_colors[2][0],
+            self.primary_colors[2][1],
+            self.primary_colors[2][2],
+            self.primary_colors[2][3],
+            self.image_data_dict[self.background_color],
+            self.image_data_dict[self.primary_colors[0]],
+            self.image_data_dict[self.primary_colors[1]],
+            self.image_data_dict[self.primary_colors[2]],
         ]
 
     def __repr__(self):
@@ -234,7 +273,7 @@ for image_dir in os.listdir(INPUT_FOLDER):
     for image in os.listdir(folder):
         result = ImageData(os.path.join(folder, image))
         html += result.to_html()
-        result.export_image(OUTPUT_FOLDER)
+        #result.export_image(OUTPUT_FOLDER)
         csv_rows.append(result.csv_line())
         #print(result)
         #input()
