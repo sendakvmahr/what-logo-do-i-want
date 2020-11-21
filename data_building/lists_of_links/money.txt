@@ -290,7 +290,6 @@ https://en.wikipedia.org/wiki/Laurentian_Bank_of_Canada
 https://en.wikipedia.org/wiki/Sycamore_Partners
 https://en.wikipedia.org/wiki/Intermediate_Capital_Group
 https://en.wikipedia.org/wiki/Lord_Abbett
-https://en.wikipedia.org/wiki/Private-equity_fund
 https://en.wikipedia.org/wiki/Permira
 https://en.wikipedia.org/wiki/American_International_Group
 https://en.wikipedia.org/wiki/Partners_Group
@@ -349,8 +348,6 @@ https://en.wikipedia.org/wiki/Unit_Trust_of_India
 https://en.wikipedia.org/wiki/Perpetual_Limited
 https://en.wikipedia.org/wiki/Natixis_Global_Asset_Management
 https://en.wikipedia.org/wiki/KB_Asset_Management
-https://en.wikipedia.org/wiki/Private_equity
-https://en.wikipedia.org/wiki/Private-equity_firm
 https://en.wikipedia.org/wiki/Pantheon_Ventures
 https://en.wikipedia.org/wiki/Leonard_Green_%26_Partners
 https://en.wikipedia.org/wiki/Ameriprise_Financial

@@ -4,7 +4,6 @@ https://en.wikipedia.org/wiki/Cafe_Coffee_Day
 https://en.wikipedia.org/wiki/Carl%27s_Jr.
 https://en.wikipedia.org/wiki/Telepizza
 https://en.wikipedia.org/wiki/Jersey_Mike%27s_Subs
-https://en.wikipedia.org/wiki/Indian_Coffee_House
 https://en.wikipedia.org/wiki/Old_Chang_Kee
 https://en.wikipedia.org/wiki/Elevation_Burger
 https://en.wikipedia.org/wiki/White_Spot
@@ -111,7 +110,6 @@ https://en.wikipedia.org/wiki/Dixie_Chili_and_Deli
 https://en.wikipedia.org/wiki/Church%27s_Chicken
 https://en.wikipedia.org/wiki/Wingstop
 https://en.wikipedia.org/wiki/Popeyes
-https://en.wikipedia.org/wiki/Tom_and_Toms_Coffee
 https://en.wikipedia.org/wiki/Duck_Donuts
 https://en.wikipedia.org/wiki/Mr._Sub
 https://en.wikipedia.org/wiki/Naugles
@@ -211,7 +209,6 @@ https://en.wikipedia.org/wiki/Quizno%27s
 https://en.wikipedia.org/wiki/Raising_Cane%27s_Chicken_Fingers
 https://en.wikipedia.org/wiki/Dunkin%27_Brands
 https://en.wikipedia.org/wiki/T.J._Cinnamons
-https://en.wikipedia.org/wiki/Jo-an
 https://en.wikipedia.org/wiki/Hungry_Jack%27s
 https://en.wikipedia.org/wiki/Tom_N_Toms_Coffee
 https://en.wikipedia.org/wiki/Booster_Juice

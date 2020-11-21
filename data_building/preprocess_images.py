@@ -64,6 +64,7 @@ class ImageData():
         self._name = imagepath.split("\\")[-1]
         self.image_category = imagepath.split("\\")[1]
         self.unquoted_name = urllib.parse.unquote(".".join(self._name.split(".")[:-1]))
+        self.unquoted_name = self.unquoted_name.replace('"' ,"").replace('"', "")
         
         image = Image.open(imagepath)
         self.image = image = image.convert("RGBA")

@@ -8,7 +8,6 @@ https://en.wikipedia.org/wiki/Biocon
 https://en.wikipedia.org/wiki/Lupin_Limited
 https://en.wikipedia.org/wiki/Cambridge_Antibody_Technology
 https://en.wikipedia.org/wiki/Rembrandt_toothpaste
-https://en.wikipedia.org/wiki/Sodium_lauryl_sulfate
 https://en.wikipedia.org/wiki/Purdue_Pharma
 https://en.wikipedia.org/wiki/Meda_AB
 https://en.wikipedia.org/wiki/Cipla
@@ -32,9 +31,7 @@ https://en.wikipedia.org/wiki/Celgene
 https://en.wikipedia.org/wiki/Jenapharm
 https://en.wikipedia.org/wiki/AAH_Pharmaceuticals
 https://en.wikipedia.org/wiki/Strides_Arcolab
-https://en.wikipedia.org/wiki/Surfactant
 https://en.wikipedia.org/wiki/Mylan
-https://en.wikipedia.org/wiki/Stannous_fluoride
 https://en.wikipedia.org/wiki/Kite_Pharma
 https://en.wikipedia.org/wiki/Sumitomo_Dainippon_Pharma
 https://en.wikipedia.org/wiki/Canadian_Plasma_Resources
@@ -85,7 +82,6 @@ https://en.wikipedia.org/wiki/Ceragenix_Pharmaceuticals
 https://en.wikipedia.org/wiki/Baxalta
 https://en.wikipedia.org/wiki/Mallinckrodt
 https://en.wikipedia.org/wiki/Abbott_Laboratories
-https://en.wikipedia.org/wiki/Thorium
 https://en.wikipedia.org/wiki/Alkaloid_(company)
 https://en.wikipedia.org/wiki/Endo_International_plc
 https://en.wikipedia.org/wiki/Actelion
@@ -183,4 +179,3 @@ https://en.wikipedia.org/wiki/Astellas_Pharma
 https://en.wikipedia.org/wiki/Sinopharm_Group
 https://en.wikipedia.org/wiki/Ipca_Laboratories
 https://en.wikipedia.org/wiki/Par_Pharmaceutical
-https://en.wikipedia.org/wiki/Thymol

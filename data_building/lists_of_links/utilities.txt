@@ -101,7 +101,6 @@ https://en.wikipedia.org/wiki/Scottish_and_Southern_Energy
 https://en.wikipedia.org/wiki/SingTel
 https://en.wikipedia.org/wiki/Vivo_S.A.
 https://en.wikipedia.org/wiki/T-Mobile
-https://en.wikipedia.org/wiki/Pakistan
 https://en.wikipedia.org/wiki/Deutsche_Telekom
 https://en.wikipedia.org/wiki/EYDAP
 https://en.wikipedia.org/wiki/Primus_Telecom
@@ -117,7 +116,6 @@ https://en.wikipedia.org/wiki/Vodafone
 https://en.wikipedia.org/wiki/State_Electricity_Commission_of_Victoria
 https://en.wikipedia.org/wiki/CEM_(Macau)
 https://en.wikipedia.org/wiki/Ergon_(Australia)
-https://en.wikipedia.org/wiki/Vodafone_Germany
 https://en.wikipedia.org/wiki/Sui_Northern_Gas_Pipelines_Limited
 https://en.wikipedia.org/wiki/Hokkaido_Electric_Power
 https://en.wikipedia.org/wiki/Energex

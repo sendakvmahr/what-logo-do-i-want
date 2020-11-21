@@ -599,7 +599,6 @@ https://en.wikipedia.org/wiki/Utz_Quality_Foods
 https://en.wikipedia.org/wiki/Venom_Energy
 https://en.wikipedia.org/wiki/Sprite_(drink)
 https://en.wikipedia.org/wiki/Granarolo_(company)
-https://en.wikipedia.org/wiki/Apiko%C4%9Flu
 https://en.wikipedia.org/wiki/Weis_(frozen_foods_company)
 https://en.wikipedia.org/wiki/Polo-Cockta
 https://en.wikipedia.org/wiki/Maruchan
@@ -1053,7 +1052,6 @@ https://en.wikipedia.org/wiki/Baskin_Robbins
 https://en.wikipedia.org/wiki/Lovin%27_Scoopful
 https://en.wikipedia.org/wiki/Alpina_Productos_Alimenticios
 https://en.wikipedia.org/wiki/Murray%27s_Cheese
-https://en.wikipedia.org/wiki/Bacchus-F
 https://en.wikipedia.org/wiki/Ito_En
 https://en.wikipedia.org/wiki/Mr_%26_Mrs_T
 https://en.wikipedia.org/wiki/Schoep%27s_Ice_Cream

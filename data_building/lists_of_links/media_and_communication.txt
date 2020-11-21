@@ -356,7 +356,6 @@ https://en.wikipedia.org/wiki/Al_Jadeed
 https://en.wikipedia.org/wiki/Madhouse_(company)
 https://en.wikipedia.org/wiki/C9TV
 https://en.wikipedia.org/wiki/Fox_Broadcasting_Company
-https://en.wikipedia.org/wiki/KT_(telecommunication_company)
 https://en.wikipedia.org/wiki/Din_News
 https://en.wikipedia.org/wiki/Telenor_Sverige
 https://en.wikipedia.org/wiki/Free_(ISP)
@@ -494,7 +493,6 @@ https://en.wikipedia.org/wiki/TopTV
 https://en.wikipedia.org/wiki/RiksTV
 https://en.wikipedia.org/wiki/Partner_Communications_Company
 https://en.wikipedia.org/wiki/Sunrise_(company)
-https://en.wikipedia.org/wiki/TD-SCDMA
 https://en.wikipedia.org/wiki/Eurosport_1
 https://en.wikipedia.org/wiki/Shogakukan
 https://en.wikipedia.org/wiki/Vestron_Video
@@ -708,7 +706,6 @@ https://en.wikipedia.org/wiki/Teledoce
 https://en.wikipedia.org/wiki/Shin-Ei_Animation
 https://en.wikipedia.org/wiki/RTB1
 https://en.wikipedia.org/wiki/Broadcast_Enterprises_and_Affiliated_Media
-https://en.wikipedia.org/wiki/HKBN
 https://en.wikipedia.org/wiki/GEM_TV
 https://en.wikipedia.org/wiki/USA_Network
 https://en.wikipedia.org/wiki/Time_Life
@@ -765,7 +762,6 @@ https://en.wikipedia.org/wiki/Jim_(TV_channel)
 https://en.wikipedia.org/wiki/VIP_Operator
 https://en.wikipedia.org/wiki/TV2_Nyhetskanalen
 https://en.wikipedia.org/wiki/Zexcs
-https://en.wikipedia.org/wiki/SRG_SSR_id%C3%A9e_suisse
 https://en.wikipedia.org/wiki/S4C
 https://en.wikipedia.org/wiki/Nile_TV
 https://en.wikipedia.org/wiki/Fido_Solutions
@@ -774,7 +770,6 @@ https://en.wikipedia.org/wiki/%C3%93%C4%8Dko
 https://en.wikipedia.org/wiki/Canal_Institucional
 https://en.wikipedia.org/wiki/Novi_Travnik
 https://en.wikipedia.org/wiki/Orbit_News
-https://en.wikipedia.org/wiki/StarHub_TV
 https://en.wikipedia.org/wiki/Network_10
 https://en.wikipedia.org/wiki/NHK
 https://en.wikipedia.org/wiki/Asia_Cell
@@ -822,7 +817,6 @@ https://en.wikipedia.org/wiki/RS_Public_Company_Limited
 https://en.wikipedia.org/wiki/Sunrise_Communications_AG
 https://en.wikipedia.org/wiki/Public_TV_of_Armenia
 https://en.wikipedia.org/wiki/Radio_Televizioni_Shqiptar
-https://en.wikipedia.org/wiki/Thule,_Greenland
 https://en.wikipedia.org/wiki/Digi_Communications
 https://en.wikipedia.org/wiki/NTV_Kenya
 https://en.wikipedia.org/wiki/STAR_Movies
@@ -1192,7 +1186,6 @@ https://en.wikipedia.org/wiki/Libya_Telecom_%26_Technology
 https://en.wikipedia.org/wiki/Kabel_1
 https://en.wikipedia.org/wiki/Base_(mobile_telephony_provider)
 https://en.wikipedia.org/wiki/BTV_(Lithuania)
-https://en.wikipedia.org/wiki/The_Walt_Disney_Company
 https://en.wikipedia.org/wiki/Channel_7_(Thailand)
 https://en.wikipedia.org/wiki/Entel_Bolivia
 https://en.wikipedia.org/wiki/GEM_(Australian_TV_channel)

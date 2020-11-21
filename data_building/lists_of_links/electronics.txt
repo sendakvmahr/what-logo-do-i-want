@@ -202,7 +202,6 @@ https://en.wikipedia.org/wiki/Nanya_Technology
 https://en.wikipedia.org/wiki/JVC
 https://en.wikipedia.org/wiki/Shure
 https://en.wikipedia.org/wiki/Snowa
-https://en.wikipedia.org/wiki/Videotex
 https://en.wikipedia.org/wiki/WebEx
 https://en.wikipedia.org/wiki/Motorola
 https://en.wikipedia.org/wiki/Ar%C3%A7elik
@@ -250,7 +249,6 @@ https://en.wikipedia.org/wiki/Marvell_Technology_Group
 https://en.wikipedia.org/wiki/IBC_SOLAR
 https://en.wikipedia.org/wiki/Arctic_(company)
 https://en.wikipedia.org/wiki/Fuji_Electric
-https://en.wikipedia.org/wiki/Z80
 https://en.wikipedia.org/wiki/Elitegroup_Computer_Systems
 https://en.wikipedia.org/wiki/Silicon_Graphics
 https://en.wikipedia.org/wiki/HiSilicon
@@ -361,7 +359,6 @@ https://en.wikipedia.org/wiki/Albatron
 https://en.wikipedia.org/wiki/Funai
 https://en.wikipedia.org/wiki/McIntosh_Laboratory
 https://en.wikipedia.org/wiki/Inventec
-https://en.wikipedia.org/wiki/Kenwood_Corporation
 https://en.wikipedia.org/wiki/Ralink
 https://en.wikipedia.org/wiki/Gionee
 https://en.wikipedia.org/wiki/Audiovox
@@ -400,10 +397,8 @@ https://en.wikipedia.org/wiki/Otis_Elevator_Company
 https://en.wikipedia.org/wiki/Robert_Bosch_GmbH
 https://en.wikipedia.org/wiki/HTC
 https://en.wikipedia.org/wiki/AMD
-https://en.wikipedia.org/wiki/Renewable_energy_industry
 https://en.wikipedia.org/wiki/Imation
 https://en.wikipedia.org/wiki/Beko
-https://en.wikipedia.org/wiki/S%C3%ADragon
 https://en.wikipedia.org/wiki/Rangs_Group
 https://en.wikipedia.org/wiki/Analog_Devices
 https://en.wikipedia.org/wiki/Mabe_Mexico

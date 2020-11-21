@@ -104,7 +104,6 @@ https://en.wikipedia.org/wiki/Fiol_Prosecco
 https://en.wikipedia.org/wiki/Mercury_(automobile)
 https://en.wikipedia.org/wiki/Est%C3%A9e_Lauder_Companies
 https://en.wikipedia.org/wiki/Montgomery_Ward
-https://en.wikipedia.org/wiki/Toiletries
 https://en.wikipedia.org/wiki/A._T._Cross_Company
 https://en.wikipedia.org/wiki/Breton_(company)
 https://en.wikipedia.org/wiki/Carling
@@ -192,7 +191,6 @@ https://en.wikipedia.org/wiki/Chicago,_Burlington_%26_Quincy
 https://en.wikipedia.org/wiki/Technogym
 https://en.wikipedia.org/wiki/Dial_Corporation
 https://en.wikipedia.org/wiki/VM_Motori
-https://en.wikipedia.org/wiki/Trelleborg_AB
 https://en.wikipedia.org/wiki/Miracle_Whip
 https://en.wikipedia.org/wiki/Fantic_Motor
 https://en.wikipedia.org/wiki/Western_Airlines
@@ -276,7 +274,6 @@ https://en.wikipedia.org/wiki/Overland_Automobile
 https://en.wikipedia.org/wiki/Jetsgo
 https://en.wikipedia.org/wiki/De_Soto_(automobile)
 https://en.wikipedia.org/wiki/Yard-O-Led
-https://en.wikipedia.org/wiki/Coty,_Inc.
 https://en.wikipedia.org/wiki/Ansett_New_Zealand
 https://en.wikipedia.org/wiki/Swiffer
 https://en.wikipedia.org/wiki/Onoto_pens
@@ -532,7 +529,6 @@ https://en.wikipedia.org/wiki/Keglevich
 https://en.wikipedia.org/wiki/Foo_Go
 https://en.wikipedia.org/wiki/Classmate_Stationery
 https://en.wikipedia.org/wiki/Commercial_Metals_Company
-https://en.wikipedia.org/wiki/Danieli
 https://en.wikipedia.org/wiki/Erdemir
 https://en.wikipedia.org/wiki/Bottega_Giotti
 https://en.wikipedia.org/wiki/Birmingham_European_Airways

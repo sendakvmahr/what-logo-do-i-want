@@ -123,7 +123,6 @@ https://en.wikipedia.org/wiki/Loch_Lomond_Single_Malt
 https://en.wikipedia.org/wiki/Lost_Coast_Brewery
 https://en.wikipedia.org/wiki/Burleigh_Brewing_Company
 https://en.wikipedia.org/wiki/Tuckerman_Brewing_Company
-https://en.wikipedia.org/wiki/Marble_Brewery_(Albuquerque,_New_Mexico)
 https://en.wikipedia.org/wiki/Tanduay
 https://en.wikipedia.org/wiki/Great_Western_Brewing_Company
 https://en.wikipedia.org/wiki/Upslope_Brewing_Company
@@ -171,7 +170,6 @@ https://en.wikipedia.org/wiki/Campari_Group
 https://en.wikipedia.org/wiki/Creemore_Springs
 https://en.wikipedia.org/wiki/Redbreast_(whiskey)
 https://en.wikipedia.org/wiki/Buchanan%27s
-https://en.wikipedia.org/wiki/Margaret_River
 https://en.wikipedia.org/wiki/Don_Papa_Rum
 https://en.wikipedia.org/wiki/Drake%27s_Brewing_Company
 https://en.wikipedia.org/wiki/Colonial_Brewing_Company

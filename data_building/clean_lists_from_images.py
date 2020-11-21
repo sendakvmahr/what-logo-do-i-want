@@ -4,7 +4,7 @@ run this to update the corresponding list of links to match. That way, if run on
 another computer, you can just use the recorded list of links. 
 """
 import os
-name="money"
+name="utilities"
 check_list = "./lists_of_links/{}.txt".format(name)
 files = "./images/{}".format(name)
 #output = check_list.split(r"/")[-1]
