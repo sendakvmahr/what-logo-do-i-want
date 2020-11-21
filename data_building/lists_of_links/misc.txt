@@ -146,7 +146,6 @@ https://en.wikipedia.org/wiki/Little_People
 https://en.wikipedia.org/wiki/Lancia
 https://en.wikipedia.org/wiki/Saputo_Inc
 https://en.wikipedia.org/wiki/Corona_(beer)
-https://en.wikipedia.org/wiki/Whirly_tube
 https://en.wikipedia.org/wiki/Assicurazioni_Generali
 https://en.wikipedia.org/wiki/Gulf,_Mobile_and_Ohio_Railroad
 https://en.wikipedia.org/wiki/SBC_Communications
@@ -189,7 +188,6 @@ https://en.wikipedia.org/wiki/Business_Express_Airlines
 https://en.wikipedia.org/wiki/Atchison,_Topeka_%26_Santa_Fe_Railroad
 https://en.wikipedia.org/wiki/Chicago,_Burlington_%26_Quincy
 https://en.wikipedia.org/wiki/Technogym
-https://en.wikipedia.org/wiki/Dial_Corporation
 https://en.wikipedia.org/wiki/VM_Motori
 https://en.wikipedia.org/wiki/Miracle_Whip
 https://en.wikipedia.org/wiki/Fantic_Motor
@@ -426,7 +424,6 @@ https://en.wikipedia.org/wiki/Blockbuster_LLC
 https://en.wikipedia.org/wiki/Eos_Airlines
 https://en.wikipedia.org/wiki/Siae_Microelettronica
 https://en.wikipedia.org/wiki/Sharp%27s_Brewery
-https://en.wikipedia.org/wiki/Omo_(detergent)
 https://en.wikipedia.org/wiki/De_Tomaso
 https://en.wikipedia.org/wiki/Jaeger-LeCoultre
 https://en.wikipedia.org/wiki/Gamesa
@@ -506,7 +503,6 @@ https://en.wikipedia.org/wiki/Sir_Kensington%27s
 https://en.wikipedia.org/wiki/ThyssenKrupp
 https://en.wikipedia.org/wiki/PlayStation_(console)
 https://en.wikipedia.org/wiki/Newgate_(company)
-https://en.wikipedia.org/wiki/Rin_(detergent)
 https://en.wikipedia.org/wiki/Worthington_Brewery
 https://en.wikipedia.org/wiki/Falstaff_Brewing_Corporation
 https://en.wikipedia.org/wiki/Bticino
@@ -557,7 +553,6 @@ https://en.wikipedia.org/wiki/Cosmi_Americo_%26_Figlio
 https://en.wikipedia.org/wiki/Chicago,_Rock_Island_%26_Pacific_Railroad
 https://en.wikipedia.org/wiki/Surf_(detergent)
 https://en.wikipedia.org/wiki/Leyland_Motors
-https://en.wikipedia.org/wiki/Lever_2000
 https://en.wikipedia.org/wiki/Chicago_and_Eastern_Illinois_Railway
 https://en.wikipedia.org/wiki/Astraeus_Airlines
 https://en.wikipedia.org/wiki/Skybus_Airlines
@@ -696,7 +691,6 @@ https://en.wikipedia.org/wiki/Trussardi
 https://en.wikipedia.org/wiki/Ferretti_Group
 https://en.wikipedia.org/wiki/Joy_(dishwashing_liquid)
 https://en.wikipedia.org/wiki/Electrasol
-https://en.wikipedia.org/wiki/Hupmobile
 https://en.wikipedia.org/wiki/Societ%C3%A0_Italiana_Ernesto_Breda
 https://en.wikipedia.org/wiki/Danemann
 https://en.wikipedia.org/wiki/Fiorucci

@@ -182,7 +182,6 @@ https://en.wikipedia.org/wiki/Danone
 https://en.wikipedia.org/wiki/Maille_(company)
 https://en.wikipedia.org/wiki/Bellisio_Foods
 https://en.wikipedia.org/wiki/Cooplands
-https://en.wikipedia.org/wiki/Malt-O-Meal
 https://en.wikipedia.org/wiki/Luck%27s_Incorporated
 https://en.wikipedia.org/wiki/Ferrero_Rocher
 https://en.wikipedia.org/wiki/Kikkoman
@@ -277,7 +276,6 @@ https://en.wikipedia.org/wiki/Hint_Water
 https://en.wikipedia.org/wiki/Farrell%27s_Ice_Cream_Parlour
 https://en.wikipedia.org/wiki/Street_King_(drink)
 https://en.wikipedia.org/wiki/Ingredion
-https://en.wikipedia.org/wiki/Mr._Pibb
 https://en.wikipedia.org/wiki/Wesson_cooking_oil
 https://en.wikipedia.org/wiki/Debonairs_Pizza
 https://en.wikipedia.org/wiki/Thorntons
@@ -375,7 +373,6 @@ https://en.wikipedia.org/wiki/Biscuiterie_Saint-Michel
 https://en.wikipedia.org/wiki/Vitasoy
 https://en.wikipedia.org/wiki/Zevia
 https://en.wikipedia.org/wiki/Badoit
-https://en.wikipedia.org/wiki/Ezaki_Glico
 https://en.wikipedia.org/wiki/Reese%27s
 https://en.wikipedia.org/wiki/Mahou-San_Miguel_Group
 https://en.wikipedia.org/wiki/Andy%27s_Frozen_Custard
@@ -583,7 +580,6 @@ https://en.wikipedia.org/wiki/Sumol_%2B_Compal
 https://en.wikipedia.org/wiki/Delaware_North
 https://en.wikipedia.org/wiki/Blair%27s_Sauces_and_Snacks
 https://en.wikipedia.org/wiki/Winder_Farms
-https://en.wikipedia.org/wiki/Scottish_Blend
 https://en.wikipedia.org/wiki/Elior_Group
 https://en.wikipedia.org/wiki/King%27s_Hawaiian
 https://en.wikipedia.org/wiki/Badia_Spices
@@ -706,7 +702,6 @@ https://en.wikipedia.org/wiki/Olvi
 https://en.wikipedia.org/wiki/Reily_Foods_Company
 https://en.wikipedia.org/wiki/Loacker
 https://en.wikipedia.org/wiki/Polar_Ice_Cream
-https://en.wikipedia.org/wiki/Torengos
 https://en.wikipedia.org/wiki/Bawls
 https://en.wikipedia.org/wiki/BOS_Ice_Tea
 https://en.wikipedia.org/wiki/Russo%27s_New_York_Pizzeria
@@ -1134,7 +1129,6 @@ https://en.wikipedia.org/wiki/Le_Pain_Quotidien
 https://en.wikipedia.org/wiki/Engro_Corporation
 https://en.wikipedia.org/wiki/Ideal_Ice_Cream
 https://en.wikipedia.org/wiki/Charoen_Pokphand_Foods
-https://en.wikipedia.org/wiki/Embotelladora_Don_Jorge_S.A.C.
 https://en.wikipedia.org/wiki/ContiGroup_Companies
 https://en.wikipedia.org/wiki/Rain-Blo
 https://en.wikipedia.org/wiki/Ringos
@@ -1192,7 +1186,6 @@ https://en.wikipedia.org/wiki/Frontier_Natural_Products_Co-op
 https://en.wikipedia.org/wiki/Big_Apple_Bagels
 https://en.wikipedia.org/wiki/Blue_Bell_Creameries
 https://en.wikipedia.org/wiki/Mazzio%27s_Italian_Eatery
-https://en.wikipedia.org/wiki/Makkah_Cola
 https://en.wikipedia.org/wiki/Dairy_Milk
 https://en.wikipedia.org/wiki/Pure_Indian_Foods
 https://en.wikipedia.org/wiki/Gold_Spot

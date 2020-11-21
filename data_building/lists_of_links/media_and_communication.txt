@@ -135,7 +135,6 @@ https://en.wikipedia.org/wiki/XHTVM-TDT
 https://en.wikipedia.org/wiki/Nippon_Animation
 https://en.wikipedia.org/wiki/TV_Tokyo
 https://en.wikipedia.org/wiki/Am%C3%A9rica_Televisi%C3%B3n
-https://en.wikipedia.org/wiki/STAR_Plus
 https://en.wikipedia.org/wiki/OLM,_Inc.
 https://en.wikipedia.org/wiki/Unit%C3%A9
 https://en.wikipedia.org/wiki/Hondutel
@@ -377,7 +376,6 @@ https://en.wikipedia.org/wiki/Digiturk
 https://en.wikipedia.org/wiki/Video_and_Audio_Project
 https://en.wikipedia.org/wiki/Roshan_(telco)
 https://en.wikipedia.org/wiki/Univision
-https://en.wikipedia.org/wiki/Lightning_Video
 https://en.wikipedia.org/wiki/NPO_1
 https://en.wikipedia.org/wiki/Las_Estrellas
 https://en.wikipedia.org/wiki/BTV_World
@@ -509,7 +507,6 @@ https://en.wikipedia.org/wiki/Dtac
 https://en.wikipedia.org/wiki/My_TV_(Bangladesh)
 https://en.wikipedia.org/wiki/Bouygues
 https://en.wikipedia.org/wiki/TV3_(Malaysia)
-https://en.wikipedia.org/wiki/Mobile_TeleSystems
 https://en.wikipedia.org/wiki/Televisa
 https://en.wikipedia.org/wiki/MediaCorp_Channel_NewsAsia
 https://en.wikipedia.org/wiki/Outre-Mer_1%C3%A8re
@@ -700,7 +697,6 @@ https://en.wikipedia.org/wiki/Boishakhi_TV
 https://en.wikipedia.org/wiki/Pelephone
 https://en.wikipedia.org/wiki/Televisi%C3%B3n_Regional_del_Oriente
 https://en.wikipedia.org/wiki/Freeview_(UK)
-https://en.wikipedia.org/wiki/MBC_FM
 https://en.wikipedia.org/wiki/Tunisie_Telecom
 https://en.wikipedia.org/wiki/Teledoce
 https://en.wikipedia.org/wiki/Shin-Ei_Animation
@@ -1026,7 +1022,6 @@ https://en.wikipedia.org/wiki/Centro_Televisivo_Vaticano
 https://en.wikipedia.org/wiki/BanglaLion
 https://en.wikipedia.org/wiki/ELTA-KABEL
 https://en.wikipedia.org/wiki/Uralsvyazinform
-https://en.wikipedia.org/wiki/High_Speed_Packet_Access
 https://en.wikipedia.org/wiki/Sistema_Brasileiro_de_Televis%C3%A3o
 https://en.wikipedia.org/wiki/Cogeco_Cable
 https://en.wikipedia.org/wiki/TV2_Filmkanalen
@@ -1212,7 +1207,6 @@ https://en.wikipedia.org/wiki/MediaCorp_Channel_5
 https://en.wikipedia.org/wiki/Canterbury_Television
 https://en.wikipedia.org/wiki/Gaiam_Vivendi_Entertainment
 https://en.wikipedia.org/wiki/Shamshad_TV
-https://en.wikipedia.org/wiki/MBC_1_(Middle_East)
 https://en.wikipedia.org/wiki/Repretel
 https://en.wikipedia.org/wiki/TV_Edukasi
 https://en.wikipedia.org/wiki/Editorial_Ivrea
@@ -1270,7 +1264,6 @@ https://en.wikipedia.org/wiki/Al_Maghribiya
 https://en.wikipedia.org/wiki/Televis%C3%A3o_P%C3%BAblica_de_Angola
 https://en.wikipedia.org/wiki/Rajawali_Televisi
 https://en.wikipedia.org/wiki/Qatar
-https://en.wikipedia.org/wiki/Orascom_Telecom_Algerie
 https://en.wikipedia.org/wiki/TV_Asahi
 https://en.wikipedia.org/wiki/Orange_(telecommunications)
 https://en.wikipedia.org/wiki/ITV_(TV_channel)

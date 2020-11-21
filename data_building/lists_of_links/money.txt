@@ -210,7 +210,6 @@ https://en.wikipedia.org/wiki/The_Boston_Consulting_Group
 https://en.wikipedia.org/wiki/SinoPac_Financial_Holdings
 https://en.wikipedia.org/wiki/Chicago_Growth_Partners
 https://en.wikipedia.org/wiki/Hillhouse_Capital_Group
-https://en.wikipedia.org/wiki/AMVESCAP
 https://en.wikipedia.org/wiki/Sharps_Pixley
 https://en.wikipedia.org/wiki/Amundi
 https://en.wikipedia.org/wiki/Apax_Partners
@@ -237,7 +236,6 @@ https://en.wikipedia.org/wiki/Mediobanca
 https://en.wikipedia.org/wiki/WisdomTree_Investments
 https://en.wikipedia.org/wiki/MFS_Investment_Management
 https://en.wikipedia.org/wiki/KRG_Capital
-https://en.wikipedia.org/wiki/American_Funds
 https://en.wikipedia.org/wiki/NN_Investment_Partners
 https://en.wikipedia.org/wiki/Ita%C3%BA_Unibanco
 https://en.wikipedia.org/wiki/Rabobank

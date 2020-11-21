@@ -159,7 +159,6 @@ https://en.wikipedia.org/wiki/Amdahl_Corporation
 https://en.wikipedia.org/wiki/WEG_Industries
 https://en.wikipedia.org/wiki/AT%26T
 https://en.wikipedia.org/wiki/CyberPowerPC
-https://en.wikipedia.org/wiki/Philips_Semiconductors
 https://en.wikipedia.org/wiki/Epson
 https://en.wikipedia.org/wiki/Technics_(brand)
 https://en.wikipedia.org/wiki/Brother_Industries
@@ -422,7 +421,6 @@ https://en.wikipedia.org/wiki/Loewe_AG
 https://en.wikipedia.org/wiki/Ritek
 https://en.wikipedia.org/wiki/Qimonda
 https://en.wikipedia.org/wiki/Acura
-https://en.wikipedia.org/wiki/Rackable_Systems
 https://en.wikipedia.org/wiki/Polk_Audio
 https://en.wikipedia.org/wiki/Sprint_Corporation
 https://en.wikipedia.org/wiki/RCA
@@ -483,7 +481,6 @@ https://en.wikipedia.org/wiki/Video_Relay_Service
 https://en.wikipedia.org/wiki/General_Electric
 https://en.wikipedia.org/wiki/Shin-Etsu_Chemical
 https://en.wikipedia.org/wiki/Digital_Equipment_Corporation
-https://en.wikipedia.org/wiki/MicronPC
 https://en.wikipedia.org/wiki/Point_of_View_(computer_hardware_company)
 https://en.wikipedia.org/wiki/Deepcool
 https://en.wikipedia.org/wiki/Karbonn_Mobiles

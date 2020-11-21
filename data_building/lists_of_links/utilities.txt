@@ -16,7 +16,6 @@ https://en.wikipedia.org/wiki/PTT_Public_Company_Limited
 https://en.wikipedia.org/wiki/BT_Ireland
 https://en.wikipedia.org/wiki/Axiata_Group_Berhad
 https://en.wikipedia.org/wiki/London_Underground
-https://en.wikipedia.org/wiki/AES_Eletropaulo
 https://en.wikipedia.org/wiki/Sanepar
 https://en.wikipedia.org/wiki/Eurostar
 https://en.wikipedia.org/wiki/Origin_Energy
@@ -93,7 +92,6 @@ https://en.wikipedia.org/wiki/Kyushu_Electric_Power
 https://en.wikipedia.org/wiki/Enel_SPA
 https://en.wikipedia.org/wiki/Sabesp
 https://en.wikipedia.org/wiki/Celesc
-https://en.wikipedia.org/wiki/TOT_Public_Company_Limited
 https://en.wikipedia.org/wiki/Philippine_Long_Distance_Telephone_Company
 https://en.wikipedia.org/wiki/Telenor
 https://en.wikipedia.org/wiki/MTNL
