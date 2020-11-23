@@ -400,7 +400,6 @@ https://en.wikipedia.org/wiki/New_York_Lizards
 https://en.wikipedia.org/wiki/New_York_Mets
 https://en.wikipedia.org/wiki/New_York_Rangers
 https://en.wikipedia.org/wiki/New_York_Red_Bulls
-https://en.wikipedia.org/wiki/New_York_Red_Bulls_II
 https://en.wikipedia.org/wiki/New_York_Riptide
 https://en.wikipedia.org/wiki/New_York_Yankees
 https://en.wikipedia.org/wiki/Newfoundland_Growlers
@@ -457,7 +456,6 @@ https://en.wikipedia.org/wiki/Philadelphia_Freedoms
 https://en.wikipedia.org/wiki/Philadelphia_Phillies
 https://en.wikipedia.org/wiki/Philadelphia_Phoenix_(AUDL)
 https://en.wikipedia.org/wiki/Philadelphia_Union
-https://en.wikipedia.org/wiki/Philadelphia_Union_II
 https://en.wikipedia.org/wiki/Phoenix_Mercury
 https://en.wikipedia.org/wiki/Phoenix_Rising_FC
 https://en.wikipedia.org/wiki/Phoenix_Suns
@@ -618,7 +616,6 @@ https://en.wikipedia.org/wiki/Toronto_Argonauts
 https://en.wikipedia.org/wiki/Toronto_Arrows
 https://en.wikipedia.org/wiki/Toronto_Blue_Jays
 https://en.wikipedia.org/wiki/Toronto_FC
-https://en.wikipedia.org/wiki/Toronto_FC_II
 https://en.wikipedia.org/wiki/Toronto_Maple_Leafs
 https://en.wikipedia.org/wiki/Toronto_Marlies
 https://en.wikipedia.org/wiki/Toronto_Raptors

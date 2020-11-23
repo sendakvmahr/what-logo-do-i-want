@@ -521,7 +521,6 @@ https://en.wikipedia.org/wiki/Dylan%27s_Candy_Bar
 https://en.wikipedia.org/wiki/Kerry_Group
 https://en.wikipedia.org/wiki/Florida_Ice_and_Farm_Company
 https://en.wikipedia.org/wiki/Sarson%27s
-https://en.wikipedia.org/wiki/Surge_(soft_drink)
 https://en.wikipedia.org/wiki/Frooti
 https://en.wikipedia.org/wiki/Mahashian_Di_Hatti
 https://en.wikipedia.org/wiki/Iglo
@@ -805,7 +804,6 @@ https://en.wikipedia.org/wiki/Oishi_(company)
 https://en.wikipedia.org/wiki/Cadbury_Highlights
 https://en.wikipedia.org/wiki/Nutella
 https://en.wikipedia.org/wiki/Western_Family
-https://en.wikipedia.org/wiki/Elsie_Stix
 https://en.wikipedia.org/wiki/Dej%C3%A0_Blue
 https://en.wikipedia.org/wiki/Gordon_Food_Service
 https://en.wikipedia.org/wiki/Maaza
@@ -1253,7 +1251,6 @@ https://en.wikipedia.org/wiki/Toppers_Pizza_(American_restaurant)
 https://en.wikipedia.org/wiki/Aalst_Chocolate
 https://en.wikipedia.org/wiki/Hilmar_Cheese_Company
 https://en.wikipedia.org/wiki/Vitta_Foods
-https://en.wikipedia.org/wiki/Maxaroni
 https://en.wikipedia.org/wiki/Ayam_Brand
 https://en.wikipedia.org/wiki/Costa_Coffee
 https://en.wikipedia.org/wiki/Nik-L-Nip

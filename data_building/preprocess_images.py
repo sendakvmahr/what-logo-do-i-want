@@ -3,12 +3,12 @@ import urllib
 import numpy as np
 import PIL.Image as Image
 from collections import defaultdict
-
+full_data = True
 # Minimum percentage needed to be considered "part of the color scheme
 COLOR_THRESHOLD = .1
 COMBINE_THRESHOLD = 50
-INPUT_FOLDER ="images"
-OUTPUT_FOLDER = "images_processed"
+INPUT_FOLDER ="images" if full_data else "test_images"
+OUTPUT_FOLDER = "images_processed" if full_data else "test_images_processed"
 HEADER = [
     "category",
     "name",
@@ -273,15 +273,15 @@ for image_dir in os.listdir(INPUT_FOLDER):
     for image in os.listdir(folder):
         result = ImageData(os.path.join(folder, image))
         html += result.to_html()
-        #result.export_image(OUTPUT_FOLDER)
+        result.export_image(OUTPUT_FOLDER)
         csv_rows.append(result.csv_line())
         #print(result)
         #input()
     
-with open("output.html", "w", encoding="utf-8") as file:
+with open("output.html" if full_data else "output_test.html", "w", encoding="utf-8") as file:
     file.write(HTML_FILE_TEMPLATE.format(html))
 
-with open("output.csv", "w", newline="", encoding="utf-8") as csvoutput:    
+with open("output.csv" if full_data else "output_test.csv", "w", newline="", encoding="utf-8") as csvoutput:    
     writer = csv.writer(csvoutput, delimiter=",")
     writer.writerow(HEADER)
     for info in csv_rows:

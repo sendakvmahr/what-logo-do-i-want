@@ -72,12 +72,10 @@ https://en.wikipedia.org/wiki/Telekom_Malaysia
 https://en.wikipedia.org/wiki/Zong_(mobile_network_operator)
 https://en.wikipedia.org/wiki/Optus
 https://en.wikipedia.org/wiki/%C3%89lectricit%C3%A9_de_France
-https://en.wikipedia.org/wiki/Scottish_Power
 https://en.wikipedia.org/wiki/Light_S.A.
 https://en.wikipedia.org/wiki/Eskom
 https://en.wikipedia.org/wiki/CAT_Telecom
 https://en.wikipedia.org/wiki/Etisalat_egypt
-https://en.wikipedia.org/wiki/Orange_egypt
 https://en.wikipedia.org/wiki/Country_Energy
 https://en.wikipedia.org/wiki/Red_Star_Parcels
 https://en.wikipedia.org/wiki/Strathclyde
@@ -87,7 +85,6 @@ https://en.wikipedia.org/wiki/Sui_Southern_Gas_Company_Limited
 https://en.wikipedia.org/wiki/CEMIG
 https://en.wikipedia.org/wiki/Island_Line_(brand)
 https://en.wikipedia.org/wiki/Meralco
-https://en.wikipedia.org/wiki/Lancashire
 https://en.wikipedia.org/wiki/Kyushu_Electric_Power
 https://en.wikipedia.org/wiki/Enel_SPA
 https://en.wikipedia.org/wiki/Sabesp
@@ -99,7 +96,6 @@ https://en.wikipedia.org/wiki/Scottish_and_Southern_Energy
 https://en.wikipedia.org/wiki/SingTel
 https://en.wikipedia.org/wiki/Vivo_S.A.
 https://en.wikipedia.org/wiki/T-Mobile
-https://en.wikipedia.org/wiki/Deutsche_Telekom
 https://en.wikipedia.org/wiki/EYDAP
 https://en.wikipedia.org/wiki/Primus_Telecom
 https://en.wikipedia.org/wiki/Chubu_Electric_Power

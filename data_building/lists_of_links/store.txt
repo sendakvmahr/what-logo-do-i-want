@@ -255,7 +255,6 @@ https://en.wikipedia.org/wiki/Rite_Aid
 https://en.wikipedia.org/wiki/Myer
 https://en.wikipedia.org/wiki/PARKnSHOP
 https://en.wikipedia.org/wiki/Office_Depot
-https://en.wikipedia.org/wiki/SM_Hypermarket
 https://en.wikipedia.org/wiki/DEKA_(New_Zealand)
 https://en.wikipedia.org/wiki/Celio_(retailer)
 https://en.wikipedia.org/wiki/Penny_Market
@@ -313,7 +312,6 @@ https://en.wikipedia.org/wiki/Imtiaz_Super_Market
 https://en.wikipedia.org/wiki/Lotte_Mart
 https://en.wikipedia.org/wiki/Renaud-Bray
 https://en.wikipedia.org/wiki/Ballantynes
-https://en.wikipedia.org/wiki/Geoffrey%27s_Toy_Box
 https://en.wikipedia.org/wiki/Michaels
 https://en.wikipedia.org/wiki/Uniqlo
 https://en.wikipedia.org/wiki/Costco
@@ -397,7 +395,6 @@ https://en.wikipedia.org/wiki/Hua_Ho_Department_Store
 https://en.wikipedia.org/wiki/Freimans
 https://en.wikipedia.org/wiki/Lucky_Stores
 https://en.wikipedia.org/wiki/Uny
-https://en.wikipedia.org/wiki/The_Hudson%27s_Bay_Company
 https://en.wikipedia.org/wiki/Gemco
 https://en.wikipedia.org/wiki/Harts_Stores
 https://en.wikipedia.org/wiki/Keells_Super

@@ -2,7 +2,8 @@
 /data_building/output.csv
 /data_building/output.html
 /data_building/images_processed
-
+/data_building/images_silhouette
+*.pickle
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

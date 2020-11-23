@@ -463,7 +463,6 @@ https://en.wikipedia.org/wiki/Fractal_Design
 https://en.wikipedia.org/wiki/Minox
 https://en.wikipedia.org/wiki/JL_Audio
 https://en.wikipedia.org/wiki/Lexar
-https://en.wikipedia.org/wiki/Hynix
 https://en.wikipedia.org/wiki/Dynex
 https://en.wikipedia.org/wiki/NXP_Semiconductors
 https://en.wikipedia.org/wiki/Zoostorm

@@ -228,7 +228,6 @@ https://en.wikipedia.org/wiki/Beeline_(brand)
 https://en.wikipedia.org/wiki/CYTA
 https://en.wikipedia.org/wiki/Democratic_Voice_of_Burma
 https://en.wikipedia.org/wiki/Nueve_(Mexican_TV_network)
-https://en.wikipedia.org/wiki/Bandai_Namco_Entertainment
 https://en.wikipedia.org/wiki/KGTF
 https://en.wikipedia.org/wiki/NPO_2
 https://en.wikipedia.org/wiki/Khara_(studio)
@@ -283,7 +282,6 @@ https://en.wikipedia.org/wiki/LTE-A
 https://en.wikipedia.org/wiki/Jim_Henson_Home_Entertainment
 https://en.wikipedia.org/wiki/Noor_Al-Sham
 https://en.wikipedia.org/wiki/Tcell
-https://en.wikipedia.org/wiki/America_Plus
 https://en.wikipedia.org/wiki/Level_3_Communications
 https://en.wikipedia.org/wiki/GTV_(Ghana)
 https://en.wikipedia.org/wiki/Aardman_Animations
@@ -508,7 +506,6 @@ https://en.wikipedia.org/wiki/My_TV_(Bangladesh)
 https://en.wikipedia.org/wiki/Bouygues
 https://en.wikipedia.org/wiki/TV3_(Malaysia)
 https://en.wikipedia.org/wiki/Televisa
-https://en.wikipedia.org/wiki/MediaCorp_Channel_NewsAsia
 https://en.wikipedia.org/wiki/Outre-Mer_1%C3%A8re
 https://en.wikipedia.org/wiki/Al_Arabiya
 https://en.wikipedia.org/wiki/Yokohama_Animation_Laboratory
@@ -550,7 +547,6 @@ https://en.wikipedia.org/wiki/SABC2
 https://en.wikipedia.org/wiki/NOS,_SGPS
 https://en.wikipedia.org/wiki/Comedy_Central
 https://en.wikipedia.org/wiki/Blue_Lynx
-https://en.wikipedia.org/wiki/M%C3%A9ditel
 https://en.wikipedia.org/wiki/Thai_Public_Broadcasting_Service
 https://en.wikipedia.org/wiki/PING
 https://en.wikipedia.org/wiki/Cue_TV
@@ -615,7 +611,6 @@ https://en.wikipedia.org/wiki/Universal_Mobile_Systems
 https://en.wikipedia.org/wiki/Mindset_Health
 https://en.wikipedia.org/wiki/SA_TV
 https://en.wikipedia.org/wiki/Korean_Broadcasting_System
-https://en.wikipedia.org/wiki/Svalbard_and_Jan_Mayen
 https://en.wikipedia.org/wiki/Meteor_(mobile_network)
 https://en.wikipedia.org/wiki/TNK_(company)
 https://en.wikipedia.org/wiki/Allstream
@@ -869,7 +864,6 @@ https://en.wikipedia.org/wiki/Abbey_Home_Media_Group
 https://en.wikipedia.org/wiki/Almajd_TV_Network
 https://en.wikipedia.org/wiki/Tiger_Aspect_Productions
 https://en.wikipedia.org/wiki/Andisheh_TV
-https://en.wikipedia.org/wiki/Colombia_M%C3%B3vil
 https://en.wikipedia.org/wiki/Celcom
 https://en.wikipedia.org/wiki/Nippon_Television
 https://en.wikipedia.org/wiki/TotalTV
@@ -1144,7 +1138,6 @@ https://en.wikipedia.org/wiki/ANTV
 https://en.wikipedia.org/wiki/Plus_(telecommunications_Poland)
 https://en.wikipedia.org/wiki/RTL_Z
 https://en.wikipedia.org/wiki/RASD_TV
-https://en.wikipedia.org/wiki/Virgin_Mobile
 https://en.wikipedia.org/wiki/S%C3%ADminn
 https://en.wikipedia.org/wiki/CCN_TV6
 https://en.wikipedia.org/wiki/Cellcom_(Israel)
@@ -1251,7 +1244,6 @@ https://en.wikipedia.org/wiki/HOF-TV
 https://en.wikipedia.org/wiki/South_African_Broadcasting_Corporation
 https://en.wikipedia.org/wiki/Nick_Jr.
 https://en.wikipedia.org/wiki/RT%C3%89_One
-https://en.wikipedia.org/wiki/Movilnet
 https://en.wikipedia.org/wiki/UTV_(TV_channel)
 https://en.wikipedia.org/wiki/Right_Stuf_Inc.
 https://en.wikipedia.org/wiki/Kyivstar
@@ -1267,7 +1259,6 @@ https://en.wikipedia.org/wiki/Qatar
 https://en.wikipedia.org/wiki/TV_Asahi
 https://en.wikipedia.org/wiki/Orange_(telecommunications)
 https://en.wikipedia.org/wiki/ITV_(TV_channel)
-https://en.wikipedia.org/wiki/More_24
 https://en.wikipedia.org/wiki/Djezzy
 https://en.wikipedia.org/wiki/Televen
 https://en.wikipedia.org/wiki/STAR_News
