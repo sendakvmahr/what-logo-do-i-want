@@ -3,12 +3,15 @@ import urllib
 import numpy as np
 import PIL.Image as Image
 from collections import defaultdict
-full_data = True
-# Minimum percentage needed to be considered "part of the color scheme
+
 COLOR_THRESHOLD = .1
 COMBINE_THRESHOLD = 50
-INPUT_FOLDER ="images" if full_data else "test_images"
-OUTPUT_FOLDER = "images_processed" if full_data else "test_images_processed"
+INPUT_FOLDER ="images"
+
+WEBP_OUTPUT = "images_webp"
+SIL_OUTPUT = "images_silhouette"
+OUTPUT_FOLDER = "images_processed"
+
 HEADER = [
     "category",
     "name",
@@ -38,7 +41,8 @@ HEADER = [
     "percent color1",
     "percent color2",
     "percent color3",
-]
+] + ["imagedata_{}".format(i) for i in range(16*16)]
+
 HTML_FILE_TEMPLATE = """
 <html>
 <style>
@@ -64,6 +68,7 @@ body {{
 {}
 <body>
 """
+
 HTML_TEMPLATE = """
 <div>
 <img src="{image}"/>
@@ -77,14 +82,16 @@ HTML_TEMPLATE = """
 <p><b>Variance: </b>{variance}</p>
 </div>
 """
+
 class ImageData():
     def __init__(self, imagepath):
         self._imagepath = imagepath
-        self._name = imagepath.split("\\")[-1]
-        self.image_category = imagepath.split("\\")[1]
+        self._name = imagepath.split("/")[-1]
+        self.image_category = "/".join(imagepath.split("/")[1:3])
         self.unquoted_name = urllib.parse.unquote(".".join(self._name.split(".")[:-1]))
         self.unquoted_name = self.unquoted_name.replace('"' ,"").replace('"', "")
         
+        print(imagepath)
         image = Image.open(imagepath)
         self.image = image = image.convert("RGBA")
         self._image_data = self.image.getdata()
@@ -100,38 +107,60 @@ class ImageData():
         sorted_by_percent = self._list_by_percentage(image_data_dict)
         self.background_color = self._decide_bg_color(sorted_by_percent, image)
         self.primary_colors = self._primary_colors(sorted_by_percent)
-
-        self.output_file_path = os.path.join(OUTPUT_FOLDER, self.image_category, self.unquoted_name) + ".png"
         
-    def export_image(self, output_folder):
+    def export_image(self, output_folder, option=""):
         """
         resizes image to square by extending it with detected bg color
         and saves it as a png
         """
-        dimwh = 128
-        folder_path = os.path.join(output_folder, self.image_category)
-        if not os.path.isdir(folder_path):
-            os.mkdir(folder_path)
-        final_image = Image.new("RGBA", (dimwh, dimwh), color=self.background_color)
+        if option == "webp":
+            dim = 128
+            ending = ".webp"
+        elif option == "sil":
+            dim = 16
+            ending = ".png"
+        else:
+            dim = 128
+            ending = ".png"
+        folder_path = os.path.join(output_folder)
+
+        final_image = Image.new("RGBA", (dim, dim), color=self.background_color)
         if self.profile == "square":
-            size = (dimwh, dimwh)
+            size = (dim, dim)
             offset = (0, 0)
         elif self.profile == "portrait":
             width, height = self.image.width, self.image.height
-            ratio = dimwh / height
-            size = (int(ratio * width), dimwh)
-            offset= (int((dimwh - size[0])/2), 0)
+            ratio = dim / height
+            size = (int(ratio * width), dim)
+            offset= (int((dim - size[0])/2), 0)
         else:
             width, height = self.image.width, self.image.height
-            ratio = dimwh / width
-            size = (dimwh, int(ratio * height))
-            offset= (0, int((dimwh - size[1])/2))
-        if self.image_category == "demoscene":
+            ratio = dim / width
+            size = (dim, int(ratio * height))
+            offset= (0, int((dim - size[1])/2))
+        if "demoscene" in self.image_category or option == "sil":
             to_paste = self.image.resize(size, resample=Image.NEAREST)
         else:
             to_paste = self.image.resize(size, resample=Image.BILINEAR)
+
         final_image.paste(to_paste, offset, to_paste)
-        final_image.save(self.output_file_path)
+
+        if option == "sil":
+            data = list(final_image.getdata())
+            to_reshape = []
+            image_01 = []
+            for i in range(len(data)):
+                is_background = sum(np.var([data[i], self.background_color], axis=0)) < (COLOR_THRESHOLD *2)
+                to_reshape += [255, 255, 255, 255] if is_background else [0, 0, 0, 255]
+                image_01.append(0 if is_background else 1)
+            data = np.array(to_reshape)
+            data = data.reshape(dim, dim, 4)
+            
+            final_image = Image.fromarray(data.astype(np.uint8))
+            self.image_mask = image_01
+
+        final_image.save(os.path.join(output_folder, self.image_category, self.unquoted_name) + ending
+        )
         
 
     def get_profile(self, image):
@@ -210,8 +239,9 @@ class ImageData():
                 result.append(result[-1])
         return result[1:]
         
-    def to_html(self):
-        save = HTML_TEMPLATE.format(image=self.output_file_path,
+    def to_html(self, output_folder):
+        save = HTML_TEMPLATE.format(image=os.path.join(output_folder, self.image_category, self.unquoted_name) + ".webp"
+        ,
                                     profile = self.profile,
                                     num_colors = self.num_colors,
                                     color1 = self.primary_colors[0],
@@ -252,7 +282,7 @@ class ImageData():
             self.image_data_dict[self.primary_colors[0]],
             self.image_data_dict[self.primary_colors[1]],
             self.image_data_dict[self.primary_colors[2]],
-        ]
+        ] + self.image_mask
 
     def __repr__(self):
         return "{n}: \n\tp:  {p}\n\t#c: {c}\n\tbg: {bg}\n\tC:  {C}\n\tv:  {v}".format(
@@ -265,23 +295,45 @@ class ImageData():
         )
 html=""
 csv_rows = []
-if not os.path.isdir(OUTPUT_FOLDER):
-    os.mkdir(OUTPUT_FOLDER)
 
-for image_dir in os.listdir(INPUT_FOLDER):
-    folder = os.path.join(INPUT_FOLDER, image_dir)
-    for image in os.listdir(folder):
-        result = ImageData(os.path.join(folder, image))
-        html += result.to_html()
-        result.export_image(OUTPUT_FOLDER)
-        csv_rows.append(result.csv_line())
-        #print(result)
-        #input()
-    
-with open("output.html" if full_data else "output_test.html", "w", encoding="utf-8") as file:
+
+outputs = [WEBP_OUTPUT, SIL_OUTPUT, OUTPUT_FOLDER]
+stop = 5
+
+for source in os.listdir(INPUT_FOLDER):
+    for category in os.listdir(os.path.join(INPUT_FOLDER, source)):
+        image_folder = os.path.join(INPUT_FOLDER, source, category)
+
+        for out in outputs:
+            if not os.path.isdir(os.path.join(out, source)):
+                os.mkdir(os.path.join(out, source))
+            if not os.path.isdir(os.path.join(out, source, category)):
+                os.mkdir(os.path.join(out, source, category))
+        for image in os.listdir(image_folder):
+            stop -=1
+            result = ImageData(os.path.join(image_folder, image))
+            for out in outputs:
+                output_folder = os.path.join(out, source, category)
+                if out == WEBP_OUTPUT:
+                    result.export_image(out, "webp")
+                elif out == SIL_OUTPUT:
+                    result.export_image(out, "sil")
+                elif out == OUTPUT_FOLDER:
+                    result.export_image(out)
+            html += result.to_html(WEBP_OUTPUT)
+            csv_rows.append(result.csv_line())
+            print(result)
+            if stop == 0:
+                break;
+        if stop == 0:
+            break;
+    if stop == 0:
+        break;
+print("wertizoo")
+with open("output.html", "w", encoding="utf-8") as file:
     file.write(HTML_FILE_TEMPLATE.format(html))
 
-with open("output.csv" if full_data else "output_test.csv", "w", newline="", encoding="utf-8") as csvoutput:    
+with open("output.csv", "w", newline="", encoding="utf-8") as csvoutput:    
     writer = csv.writer(csvoutput, delimiter=",")
     writer.writerow(HEADER)
     for info in csv_rows:

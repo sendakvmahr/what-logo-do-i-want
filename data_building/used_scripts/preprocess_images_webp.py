@@ -1,3 +1,4 @@
+# old, merged into preprocess images
 import os, csv
 import urllib
 import numpy as np
@@ -8,80 +9,14 @@ full_data = True
 COLOR_THRESHOLD = .1
 COMBINE_THRESHOLD = 50
 INPUT_FOLDER ="images" if full_data else "test_images"
-OUTPUT_FOLDER = "images_silhouette" if full_data else "test_images_silhouette"
-HEADER = [
-    "category",
-    "name",
-    "profile",
-    "number of colors",
-    "variance r",
-    "variance g",
-    "variance b",
-    "variance a",
-    "background color r",
-    "background color g",
-    "background color b",
-    "background color a",
-    "primary color r",
-    "primary color g",
-    "primary color b",
-    "primary color a",
-    "secondary color r",
-    "secondary color g",
-    "secondary color b",
-    "secondary color a",
-    "tertiary color r",
-    "tertiary color g",
-    "tertiary color b",
-    "tertiary color a",
-    "percent_bg",
-    "percent color1",
-    "percent color2",
-    "percent color3",
-] + ["imagedata_{}".format(i) for i in range(16*16)]
-HTML_FILE_TEMPLATE = """
-<html>
-<style>
-body, html {{
-  background: #808080;
-}}
-body>div {{
-  border: 1px solid black;
-  background: #808080;
-  padding: 20px;
-}}
-body {{
-  display: grid;
-  grid-template-columns: 31% 31% 31%;
-}}
-.colordiv {{
-    display: inline-block;
-    width: 2em; height: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
-}}
-</style>
-{}
-<body>
-"""
-HTML_TEMPLATE = """
-<div>
-<img src="{image}"/>
-<br/>
-<p><b>Profile: </b>{profile}</p>
-<p><b>Number of Colors: </b>{num_colors}</p>
-<p><b>Background Color: </b><br/><span class="colordiv" style="background:rgba{bg_color};"></span>{bg_color}</p>
-<p><b>Primary Color: </b><br/><span class="colordiv" style="background:rgba{color1};"></span>{color1}</p>
-<p><b>Secondary Color: </b><br/><span class="colordiv" style="background:rgba{color2};"></span>{color2}</p>
-<p><b>Tertiary Color: </b><br/><span class="colordiv" style="background:rgba{color3};"></span>{color3}</p>
-<p><b>Variance: </b>{variance}</p>
-</div>
-"""
+OUTPUT_FOLDER = "images_processed_webp" if full_data else "test_images_processed"
+
 class ImageData():
     def __init__(self, imagepath):
+        print(imagepath)
         self._imagepath = imagepath
-        self._name = imagepath.split("\\")[-1]
-        self.image_category = imagepath.split("\\")[1]
+        self._name = imagepath.split("/")[-1]
+        self.image_category = imagepath.split("/")[1]
         self.unquoted_name = urllib.parse.unquote(".".join(self._name.split(".")[:-1]))
         self.unquoted_name = self.unquoted_name.replace('"' ,"").replace('"', "")
         
@@ -101,14 +36,14 @@ class ImageData():
         self.background_color = self._decide_bg_color(sorted_by_percent, image)
         self.primary_colors = self._primary_colors(sorted_by_percent)
 
-        self.output_file_path = os.path.join(OUTPUT_FOLDER, self.image_category, self.unquoted_name) + ".png"
+        self.output_file_path = os.path.join(OUTPUT_FOLDER, self.image_category, self.unquoted_name) + ".webp"
         
     def export_image(self, output_folder):
         """
         resizes image to square by extending it with detected bg color
         and saves it as a png
         """
-        dimwh = 16
+        dimwh = 128
         folder_path = os.path.join(output_folder, self.image_category)
         if not os.path.isdir(folder_path):
             os.mkdir(folder_path)
@@ -129,25 +64,9 @@ class ImageData():
         if self.image_category == "demoscene":
             to_paste = self.image.resize(size, resample=Image.NEAREST)
         else:
-            to_paste = self.image.resize(size, resample=Image.NEAREST)
-
-        
+            to_paste = self.image.resize(size, resample=Image.BILINEAR)
         final_image.paste(to_paste, offset, to_paste)
-
-        data = list(final_image.getdata())
-        to_reshape = []
-        image_01 = []
-        for i in range(len(data)):
-            is_background = sum(np.var([data[i], self.background_color], axis=0)) < (COLOR_THRESHOLD *2)
-            to_reshape += [255, 255, 255, 255] if is_background else [0, 0, 0, 255]
-            image_01.append(0 if is_background else 1)
-        data = np.array(to_reshape)
-        data = data.reshape(dimwh, dimwh, 4)
-        
-        final_image = Image.fromarray(data.astype(np.uint8))
         final_image.save(self.output_file_path)
-        self.image_mask = image_01
-        #final_image.save(self.output_file_path)
         
 
     def get_profile(self, image):
@@ -182,7 +101,7 @@ class ImageData():
             result[pixel] += 1
         return result
     
-    
+
     def _decide_bg_color(self, sorted_colors, image):
         """
         decides on bg color 
@@ -268,7 +187,7 @@ class ImageData():
             self.image_data_dict[self.primary_colors[0]],
             self.image_data_dict[self.primary_colors[1]],
             self.image_data_dict[self.primary_colors[2]],
-        ] + self.image_mask
+        ]
 
     def __repr__(self):
         return "{n}: \n\tp:  {p}\n\t#c: {c}\n\tbg: {bg}\n\tC:  {C}\n\tv:  {v}".format(
@@ -286,14 +205,15 @@ if not os.path.isdir(OUTPUT_FOLDER):
 
 for image_dir in os.listdir(INPUT_FOLDER):
     folder = os.path.join(INPUT_FOLDER, image_dir)
+    print(folder)
     for image in os.listdir(folder):
         result = ImageData(os.path.join(folder, image))
-        html += result.to_html()
+        #html += result.to_html()
         result.export_image(OUTPUT_FOLDER)
-        csv_rows.append(result.csv_line())
+        #csv_rows.append(result.csv_line())
         #print(result)
         #input()
-    
+"""
 with open("output.html" if full_data else "output_test.html", "w", encoding="utf-8") as file:
     file.write(HTML_FILE_TEMPLATE.format(html))
 
@@ -302,3 +222,5 @@ with open("output.csv" if full_data else "output_test.csv", "w", newline="", enc
     writer.writerow(HEADER)
     for info in csv_rows:
         writer.writerow(info)
+    
+"""
