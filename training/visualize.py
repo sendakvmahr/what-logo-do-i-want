@@ -1,9 +1,11 @@
 import csv
 num_clusters = 200
 clusters = {}
-extension ="_shape3"
+extension =""
+
 for i in range(num_clusters):
     clusters[i] = []
+
 HTML_FILE_TEMPLATE = """
 <html>
 <style>

@@ -91,7 +91,6 @@ class ImageData():
         self.unquoted_name = urllib.parse.unquote(".".join(self._name.split(".")[:-1]))
         self.unquoted_name = self.unquoted_name.replace('"' ,"").replace('"', "")
         
-        print(imagepath)
         image = Image.open(imagepath)
         self.image = image = image.convert("RGBA")
         self._image_data = self.image.getdata()
@@ -298,7 +297,6 @@ csv_rows = []
 
 
 outputs = [WEBP_OUTPUT, SIL_OUTPUT, OUTPUT_FOLDER]
-stop = 5
 
 for source in os.listdir(INPUT_FOLDER):
     for category in os.listdir(os.path.join(INPUT_FOLDER, source)):
@@ -310,7 +308,7 @@ for source in os.listdir(INPUT_FOLDER):
             if not os.path.isdir(os.path.join(out, source, category)):
                 os.mkdir(os.path.join(out, source, category))
         for image in os.listdir(image_folder):
-            stop -=1
+
             result = ImageData(os.path.join(image_folder, image))
             for out in outputs:
                 output_folder = os.path.join(out, source, category)
@@ -322,14 +320,16 @@ for source in os.listdir(INPUT_FOLDER):
                     result.export_image(out)
             html += result.to_html(WEBP_OUTPUT)
             csv_rows.append(result.csv_line())
-            print(result)
+            print(output_folder + "/" + image)
+"""
             if stop == 0:
                 break;
         if stop == 0:
             break;
     if stop == 0:
         break;
-print("wertizoo")
+
+"""
 with open("output.html", "w", encoding="utf-8") as file:
     file.write(HTML_FILE_TEMPLATE.format(html))
 
