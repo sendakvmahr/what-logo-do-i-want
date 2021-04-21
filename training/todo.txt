@@ -1,0 +1,13 @@
+4	7
+10	44
+58	43
+45	3
+2	20
+52	63
+61	56
+57	54
+26	
+42	
+
+Prune clusters on the left for sure
+Clusters on the right, check if they're too saturated

@@ -7,6 +7,7 @@ from tensorflow.keras.preprocessing import image_dataset_from_directory
 from sklearn.cluster import KMeans
 from sklearn.pipeline import Pipeline
 use_full_data = True
+
 images = image_dataset_from_directory(
     "../data_building/{}/".format("images_processed" if use_full_data else "test_images_processed"),
     labels="inferred",
