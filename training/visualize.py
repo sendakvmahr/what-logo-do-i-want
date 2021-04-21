@@ -1,7 +1,7 @@
 import csv
 num_clusters = 200
 clusters = {}
-extension =""
+extension ="_shape3"
 
 for i in range(num_clusters):
     clusters[i] = []
@@ -43,6 +43,7 @@ with open("output{}.csv".format(extension), encoding="utf-8") as file:
     i_category = headers.index("category")
     i_name = headers.index("name")
     #i_is_train = headers.index("train_set")
+    i = 0
     for row in reader:
         link = r"../data_building/images_processed/{}/{}.png".format(
             row[i_category],
@@ -51,11 +52,12 @@ with open("output{}.csv".format(extension), encoding="utf-8") as file:
         #training = row[i_is_train] == "True"
         training = True
         class_str = "class='trained'" if training else ""
-        ahref = '<a href={l}><img {c} src="{l}"/></a>'.format(c=class_str, l=link)
+        ahref = '<a href={h}><img {c} src="{l}"/></a>'.format(c=class_str, l=link, h=i)
         try:
             clusters[int(float(row[i_cluster]))].append(ahref)
         except:
             print(row)
+        i += 1
 html = ""
 
 for i in range(num_clusters):

@@ -5,7 +5,7 @@
 /data_building/images_webp
 /data_building/images_silhouette
 /data_building/test_images
-training/output.html
+training/*.html
 *.pickle
 *.csv
 
